@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="done my homework 2" />
+    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="update yarn">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.ba057ded.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.ba057ded.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.ec6633ec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.ec6633ec.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.ec6633ec.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s1-main/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/Greeting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/GreetingContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/GreetingContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw03/HW3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw03/HW3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,69 +73,71 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Jest.deleteAffair.test.tsx">
-    <configuration name="delete 0" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.name 1">
+    <configuration name="name 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw02/tests/deleteAffair.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureOnEnter.test.tsx" />
       <test-names>
-        <test-name value="delete 0" />
+        <test-name value="name 1" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="delete 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="name 2 (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw02/tests/deleteAffair.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureOnBlur.test.tsx" />
       <test-names>
-        <test-name value="delete 1" />
+        <test-name value="name 2" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="delete 3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="name 2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw02/tests/deleteAffair.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureOnEnter.test.tsx" />
       <test-names>
-        <test-name value="delete 3" />
+        <test-name value="name 2" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="deleteAffair.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="name 3 (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureOnBlur.test.tsx" />
+      <test-names>
+        <test-name value="name 3" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="pureOnEnter.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw02/tests/deleteAffair.test.tsx" />
-      <method v="2" />
-    </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw03/tests/pureOnEnter.test.tsx" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
-        <item itemvalue="Jest.deleteAffair.test.tsx" />
-        <item itemvalue="Jest.delete 3" />
-        <item itemvalue="Jest.delete 1" />
-        <item itemvalue="Jest.delete 0" />
+        <item itemvalue="Jest.name 1" />
+        <item itemvalue="Jest.name 2" />
+        <item itemvalue="Jest.pureOnEnter.test.tsx" />
+        <item itemvalue="Jest.name 3 (1)" />
+        <item itemvalue="Jest.name 2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +156,12 @@
       <workItem from="1707569723480" duration="904000" />
       <workItem from="1707570946824" duration="550000" />
       <workItem from="1707733770440" duration="249000" />
-      <workItem from="1707807087460" duration="3620000" />
+      <workItem from="1707807087460" duration="3783000" />
+      <workItem from="1707818563447" duration="26000" />
+      <workItem from="1707891309657" duration="283000" />
+      <workItem from="1707991120981" duration="1009000" />
+      <workItem from="1707992148303" duration="2198000" />
+      <workItem from="1708327788390" duration="5756000" />
     </task>
     <task id="LOCAL-00001" summary="done my homework 2">
       <option name="closed" value="true" />
@@ -146,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707810219515</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update yarn">
+      <option name="closed" value="true" />
+      <created>1707810814825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707810814825</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +198,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done my homework 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="done my homework 2" />
+    <MESSAGE value="update yarn" />
+    <option name="LAST_COMMIT_MESSAGE" value="update yarn" />
   </component>
 </project>

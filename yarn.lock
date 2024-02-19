@@ -3464,10 +3464,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/uuid@npm:8.3.4":
-  version: 8.3.4
-  resolution: "@types/uuid@npm:8.3.4"
-  checksum: 10c0/b9ac98f82fcf35962317ef7dc44d9ac9e0f6fdb68121d384c88fe12ea318487d5585d3480fa003cf28be86a3bbe213ca688ba786601dce4a97724765eb5b1cf2
+"@types/uuid@npm:^9.0.8":
+  version: 9.0.8
+  resolution: "@types/uuid@npm:9.0.8"
+  checksum: 10c0/b411b93054cb1d4361919579ef3508a1f12bf15b5fdd97337d3d351bece6c921b52b6daeef89b62340fd73fd60da407878432a1af777f40648cbe53a01723489
   languageName: node
   linkType: hard
 
@@ -7515,7 +7515,7 @@ __metadata:
     "@types/node": "npm:16.11.56"
     "@types/react": "npm:18.0.17"
     "@types/react-dom": "npm:18.0.6"
-    "@types/uuid": "npm:8.3.4"
+    "@types/uuid": "npm:^9.0.8"
     axios: "npm:0.27.2"
     gh-pages: "npm:^6.1.1"
     react: "npm:18.2.0"
@@ -7523,9 +7523,10 @@ __metadata:
     react-redux: "npm:8.0.4"
     react-router-dom: "npm:6.4.3"
     react-scripts: "npm:5.0.1"
+    react-uuid: "npm:^2.0.0"
     redux: "npm:4.2.0"
     typescript: "npm:4.7.4"
-    uuid: "npm:9.0.0"
+    uuid: "npm:^9.0.1"
     web-vitals: "npm:2.1.4"
   languageName: unknown
   linkType: soft
@@ -11375,6 +11376,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-uuid@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "react-uuid@npm:2.0.0"
+  checksum: 10c0/91f35c83911a2072f181eee0092b45f9ea3590d22268cf8418721756d53205dd9029a873b36a00913807651a0ea5548cc0fc60bad8c4f09bcd7cb03e6ae39ecf
+  languageName: node
+  linkType: hard
+
 "react@npm:18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
@@ -13138,21 +13146,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:9.0.0":
-  version: 9.0.0
-  resolution: "uuid@npm:9.0.0"
-  bin:
-    uuid: dist/bin/uuid
-  checksum: 10c0/8867e438990d1d33ac61093e2e4e3477a2148b844e4fa9e3c2360fa4399292429c4b6ec64537eb1659c97b2d10db349c673ad58b50e2824a11e0d3630de3c056
-  languageName: node
-  linkType: hard
-
 "uuid@npm:^8.3.2":
   version: 8.3.2
   resolution: "uuid@npm:8.3.2"
   bin:
     uuid: dist/bin/uuid
   checksum: 10c0/bcbb807a917d374a49f475fae2e87fdca7da5e5530820ef53f65ba1d12131bd81a92ecf259cc7ce317cbe0f289e7d79fdfebcef9bfa3087c8c8a2fa304c9be54
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "uuid@npm:9.0.1"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 10c0/1607dd32ac7fc22f2d8f77051e6a64845c9bce5cd3dd8aa0070c074ec73e666a1f63c7b4e0f4bf2bc8b9d59dc85a15e17807446d9d2b17c8485fbc2147b27f9b
   languageName: node
   linkType: hard
 
