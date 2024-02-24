@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="completed homework - 3">
+    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="unversioned files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s1-main/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/Stand.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/Stand.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.cb8f94fe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.cb8f94fe.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.3ea2e8f8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.3ea2e8f8.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.3ea2e8f8.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/Stand.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/Stand.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c2-SuperButton/SuperButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c3-SuperCheckbox/SuperCheckbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c3-SuperCheckbox/SuperCheckbox.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,8 +123,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
-        <item itemvalue="Jest.name 1" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="Jest.name 1" />
         <item itemvalue="Jest.name 2" />
         <item itemvalue="Jest.pureOnEnter.test.tsx" />
       </list>
@@ -151,7 +151,8 @@
       <workItem from="1707991120981" duration="1009000" />
       <workItem from="1707992148303" duration="2198000" />
       <workItem from="1708327788390" duration="6604000" />
-      <workItem from="1708768280090" duration="4354000" />
+      <workItem from="1708768280090" duration="4567000" />
+      <workItem from="1708773071990" duration="1350000" />
     </task>
     <task id="LOCAL-00001" summary="done my homework 2">
       <option name="closed" value="true" />
@@ -177,7 +178,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708334089097</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="completed homework - 4">
+      <option name="closed" value="true" />
+      <created>1708772735439</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708772735439</updated>
+    </task>
+    <task id="LOCAL-00005" summary="unversioned files">
+      <option name="closed" value="true" />
+      <created>1708772807708</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708772807708</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +215,8 @@
     <MESSAGE value="done my homework 2" />
     <MESSAGE value="update yarn" />
     <MESSAGE value="completed homework - 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed homework - 3" />
+    <MESSAGE value="completed homework - 4" />
+    <MESSAGE value="unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="unversioned files" />
   </component>
 </project>
