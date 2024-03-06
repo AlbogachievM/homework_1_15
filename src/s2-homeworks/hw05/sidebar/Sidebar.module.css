@@ -16,7 +16,6 @@
 }
 
 .background {
-
 }
 
 .nav {
@@ -36,14 +35,20 @@
     text-decoration: none;
 }
 
-.nav a:hover {
-    color: #58ACFF;
-}
-
 .nav a.active {
     color: #0059B2;
     text-decoration: underline;
 }
+
+.nav a:hover {
+    color: #58ACFF;
+}
+
+.nav a:active{
+    color: #3D6B99;
+
+}
+
 .close {
     width: 100%;
     position: relative;
