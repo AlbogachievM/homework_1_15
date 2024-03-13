@@ -8,15 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.849e2392.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.849e2392.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.849e2392.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s1-main/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s1-main/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/Pages.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.8eec201a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.8eec201a.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.175b9841.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.175b9841.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/it-incubator/training/dop",
+    "last_opened_file_path": "C:/it-incubator/project-todolist",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Jest.name 1" />
         <item itemvalue="Jest.name 2" />
@@ -154,6 +154,12 @@
       <workItem from="1709641956734" duration="1551000" />
       <workItem from="1709659307363" duration="331000" />
       <workItem from="1709705030080" duration="5489000" />
+      <workItem from="1709721809843" duration="15000" />
+      <workItem from="1709726934596" duration="1300000" />
+      <workItem from="1709791971285" duration="22000" />
+      <workItem from="1710268597131" duration="277000" />
+      <workItem from="1710311278173" duration="13000" />
+      <workItem from="1710312532736" duration="4331000" />
     </task>
     <task id="LOCAL-00001" summary="done my homework 2">
       <option name="closed" value="true" />

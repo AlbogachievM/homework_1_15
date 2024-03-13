@@ -3,7 +3,8 @@
 }
 
 .input {
-    width: 372px;
+    max-width: 372px;
+    width: 100%;
     height: 36px;
     border: 1px solid #D1D1D1;
     border-radius: 5px;
@@ -24,7 +25,6 @@
 
 .errorInput:focus {
     outline-color: #CC1439;
-
 }
 
 .error {
