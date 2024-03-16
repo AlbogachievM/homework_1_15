@@ -8,6 +8,7 @@
 .hw {
     position: relative;
     padding: 16px 70px 16px 70px;
+    min-height: 30vh;
 }
 .hw::before{
     content: '';

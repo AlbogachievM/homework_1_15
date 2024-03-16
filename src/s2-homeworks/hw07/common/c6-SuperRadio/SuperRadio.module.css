@@ -1,4 +1,6 @@
 .radio {
+    margin-right: 10px;
+    accent-color: #000
 }
 
 .radio::before {
@@ -12,4 +14,7 @@
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }

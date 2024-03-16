@@ -4,19 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="Fix">
+    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="completed 6-homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.8eec201a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.8eec201a.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.175b9841.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.175b9841.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw04/common/c1-SuperInputText/SuperInputText.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.175b9841.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.175b9841.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.175b9841.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s1-main/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s1-main/App.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/HW6.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw06/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/HW7.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw07/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,23 +53,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/it-incubator/project-todolist",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "C:/it-incubator/ThreeMounth/homework_1_15/node_modules/react-scripts",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "C:\\it-incubator\\ThreeMounth\\homework_1_15\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/it-incubator/ThreeMounth/homework_1_15&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;C:/it-incubator/ThreeMounth/homework_1_15/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\it-incubator\\ThreeMounth\\homework_1_15\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Node.js.index.js">
     <configuration name="name 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -159,7 +161,9 @@
       <workItem from="1709791971285" duration="22000" />
       <workItem from="1710268597131" duration="277000" />
       <workItem from="1710311278173" duration="13000" />
-      <workItem from="1710312532736" duration="4331000" />
+      <workItem from="1710312532736" duration="4697000" />
+      <workItem from="1710579983597" duration="2732000" />
+      <workItem from="1710583174562" duration="1443000" />
     </task>
     <task id="LOCAL-00001" summary="done my homework 2">
       <option name="closed" value="true" />
@@ -209,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708774460905</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="completed 6-homework">
+      <option name="closed" value="true" />
+      <created>1710316970432</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710316970432</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +245,7 @@
     <MESSAGE value="completed homework - 4" />
     <MESSAGE value="unversioned files" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="completed 6-homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed 6-homework" />
   </component>
 </project>
