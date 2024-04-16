@@ -5,19 +5,40 @@
 }
 
 .users {
+    margin-top: 20px;
+    width: 100%;
+    border-spacing: unset;
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
 }
 
 .container {
+    max-width: 606px;
+    width: 100%;
 }
 
-.thead {
+
+.thead tr td {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    background-color: #E5E5E5;
+
+}
+
+td {
+    padding: 11px 0 11px 11px;
 }
 
 .nameCol {
+    font-weight: 300;
 }
 
 .ageCol {
+    font-weight: 500;
 }
