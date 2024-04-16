@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="Fixed a bug with the filter in task 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/HW8.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/homeWorkReducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Jest.check age 18">
+  <component name="RunManager" selected="Jest.homeWorkReducer.test.tsx">
     <configuration name="check age 18" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -70,6 +69,15 @@
       <test-names>
         <test-name value="check age 18" />
       </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="homeWorkReducer.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/s2-homeworks/hw08/bll/tests/homeWorkReducer.test.tsx" />
       <method v="2" />
     </configuration>
     <configuration name="sort name down" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -96,16 +104,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -118,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Jest.homeWorkReducer.test.tsx" />
         <item itemvalue="Jest.check age 18" />
         <item itemvalue="Jest.sort name up" />
         <item itemvalue="Jest.sort name down" />
-        <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +162,7 @@
       <workItem from="1710583174562" duration="1618000" />
       <workItem from="1710589588161" duration="51000" />
       <workItem from="1710594693426" duration="339000" />
-      <workItem from="1713254431392" duration="5967000" />
+      <workItem from="1713254431392" duration="7139000" />
     </task>
     <task id="LOCAL-00001" summary="done my homework 2">
       <option name="closed" value="true" />
@@ -246,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713260103421</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed a bug with the filter in task 8">
+      <option name="closed" value="true" />
+      <created>1713260475223</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713260475223</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
