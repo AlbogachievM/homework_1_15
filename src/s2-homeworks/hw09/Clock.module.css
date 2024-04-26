@@ -1,4 +1,11 @@
 .buttonsContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.buttonsContainer button,
+.buttonsContainer button:hover{
+    width: 84px;
 }
 
 .clock {
