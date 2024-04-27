@@ -6,16 +6,27 @@
 .buttonsContainer button,
 .buttonsContainer button:hover{
     width: 84px;
+    color: #fff;
 }
 
 .clock {
 }
 
 .watch {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .watch strong {
 }
 
 .more {
+    margin: 8px 0 27px 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    opacity: 0.5;
+
 }

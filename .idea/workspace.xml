@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="Fixed a bug with the filter in task 8">
+    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="completed logic 9hw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/Junior.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw09/Clock.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +162,8 @@
       <workItem from="1710594693426" duration="339000" />
       <workItem from="1713254431392" duration="7343000" />
       <workItem from="1714136225147" duration="5999000" />
-      <workItem from="1714150704405" duration="3030000" />
+      <workItem from="1714150704405" duration="3159000" />
+      <workItem from="1714196507041" duration="340000" />
     </task>
     <task id="LOCAL-00001" summary="done my homework 2">
       <option name="closed" value="true" />
@@ -264,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713261701705</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="completed logic 9hw">
+      <option name="closed" value="true" />
+      <created>1714155051845</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714155051845</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +297,7 @@
     <MESSAGE value="completed 7-homework" />
     <MESSAGE value="completed 8-homework" />
     <MESSAGE value="Fixed a bug with the filter in task 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug with the filter in task 8" />
+    <MESSAGE value="completed logic 9hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed logic 9hw" />
   </component>
 </project>
