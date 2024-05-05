@@ -1,3 +1,16 @@
 .loader {
+    width: 108px;
+    height: 108px;
+    background-image: url("/public/Loading.png");
     /*свг и/или анимация*/
+    animation-name: loaderAnim;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loaderAnim {
+    0% {
+        transform: rotate(-360deg);
+    }
 }

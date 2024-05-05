@@ -31,35 +31,29 @@
 }
 
 .default:hover {
-    width: 167px;
     background-color: #0080FF;
 
 }
 
 .red:hover {
-    width: 167px;
     background-color: #FF1A47;
 }
 
 .secondary:hover {
-    width: 167px;
     background-color: #E5F0FA;
 ;
 }
 
 
 .default:active {
-    width: 149px;
     background-color:#0059B2;
 }
 
 .secondary:active {
-    width: 149px;
     background-color: #C9E5FF;
 }
 
 .red:active {
-    width: 149px;
     background-color: #B21232;
 }
 
