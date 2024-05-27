@@ -59,14 +59,14 @@ const HW13 = () => {
                 } else if (e.response?.status === 400) {
                     setCode('Код 400!')
                     setImage(error400)
-                    setText(e.message)
+                    setText(e.response.data.errorText)
                     setInfo(e.response?.data.info)
                     console.log(e.response?.data.errorText)
                 } else if (e.response?.status === 500)
                 {
                     setCode('Код 500!')
                     setImage(error500)
-                    setText(e.message)
+                    setText(e.response.data.errorText)
                     setInfo(e.response.data.info)
                 }
 
