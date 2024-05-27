@@ -67,7 +67,7 @@ const HW13 = () => {
                 // дописать
             })
             .finally(()=>{
-                setIsDisabled(true)
+                setIsDisabled(false)
             })
     }
 
