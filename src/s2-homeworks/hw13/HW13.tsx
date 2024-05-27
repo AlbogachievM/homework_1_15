@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import s2 from '../../s1-main/App.module.css'
 import s from './HW13.module.css'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
-import axios from 'axios'
+import axios, {AxiosError} from 'axios'
 import success200 from './images/200.svg'
 import error400 from './images/400.svg'
 import error500 from './images/500.svg'
@@ -13,12 +13,21 @@ import errorUnknown from './images/error.svg'
 * 2 - дизэйблить кнопки пока идёт запрос
 * 3 - сделать стили в соответствии с дизайном
 * */
+type ResponseType = {
+    errorText: string
+    info: string
+    yourBody: { success: boolean }
+    success: boolean
+    yourQuery: {}
 
+}
 const HW13 = () => {
     const [code, setCode] = useState('')
     const [text, setText] = useState('')
     const [info, setInfo] = useState('')
     const [image, setImage] = useState('')
+    const [isDisabled, setIsDisabled] = useState(false)
+
 
     const send = (x?: boolean | null) => () => {
         const url =
@@ -30,18 +39,35 @@ const HW13 = () => {
         setImage('')
         setText('')
         setInfo('...loading')
-
-        axios
-            .post(url, {success: x})
+        setIsDisabled(true)
+        axios.post<ResponseType>(url, {success: x})
             .then((res) => {
                 setCode('Код 200!')
                 setImage(success200)
+                setText(res.data.errorText)
+                setInfo(res.data.info)
                 // дописать
-
+                if (!res.data.yourBody.success) {
+                    setCode('Код 500!')
+                    setImage(error500)
+                    setText(res.data.errorText)
+                    setInfo(res.data.info)
+                } else if (Object.keys(res.data.yourBody.success).length === 0) {
+                    setCode('Код 400!')
+                    setImage(error400)
+                    setText(res.data.errorText)
+                    setInfo(res.data.info)
+                }
             })
-            .catch((e) => {
+            .catch((e: AxiosError) => {
+                setCode('Error!')
+                setImage(errorUnknown)
+                setText(e.message)
+                setInfo(e.name)
                 // дописать
-
+            })
+            .finally(()=>{
+                setIsDisabled(true)
             })
     }
 
@@ -56,6 +82,7 @@ const HW13 = () => {
                         onClick={send(true)}
                         xType={'secondary'}
                         // дописать
+                        disabled={isDisabled}
 
                     >
                         Send true
@@ -65,6 +92,7 @@ const HW13 = () => {
                         onClick={send(false)}
                         xType={'secondary'}
                         // дописать
+                        disabled={isDisabled}
 
                     >
                         Send false
@@ -74,6 +102,7 @@ const HW13 = () => {
                         onClick={send(undefined)}
                         xType={'secondary'}
                         // дописать
+                        disabled={isDisabled}
 
                     >
                         Send undefined
@@ -83,6 +112,7 @@ const HW13 = () => {
                         onClick={send(null)} // имитация запроса на не корректный адрес
                         xType={'secondary'}
                         // дописать
+                        disabled={isDisabled}
 
                     >
                         Send null
