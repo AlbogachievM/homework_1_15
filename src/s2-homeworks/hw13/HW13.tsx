@@ -42,31 +42,36 @@ const HW13 = () => {
         setIsDisabled(true)
         axios.post<ResponseType>(url, {success: x})
             .then((res) => {
+
                 setCode('Код 200!')
                 setImage(success200)
                 setText(res.data.errorText)
                 setInfo(res.data.info)
                 // дописать
-                if (!res.data.yourBody.success) {
-                    setCode('Код 500!')
-                    setImage(error500)
-                    setText(res.data.errorText)
-                    setInfo(res.data.info)
-                } else if (Object.keys(res.data.yourBody.success).length === 0) {
+
+            })
+            .catch((e: AxiosError<ResponseType>) => {
+                if (e.response?.status === 0) {
+                    setCode('Error!')
+                    setImage(errorUnknown)
+                    setText(e.message)
+                    setInfo(e.name)
+                } else if (e.response?.status === 400) {
                     setCode('Код 400!')
                     setImage(error400)
-                    setText(res.data.errorText)
-                    setInfo(res.data.info)
+                    setText(e.message)
+                    setInfo(e.response?.data.info)
+                    console.log(e.response?.data.errorText)
+                } else if (e.response?.status === 500)
+                {
+                    setCode('Код 500!')
+                    setImage(error500)
+                    setText(e.message)
+                    setInfo(e.response.data.info)
                 }
+
             })
-            .catch((e: AxiosError) => {
-                setCode('Error!')
-                setImage(errorUnknown)
-                setText(e.message)
-                setInfo(e.name)
-                // дописать
-            })
-            .finally(()=>{
+            .finally(() => {
                 setIsDisabled(false)
             })
     }
