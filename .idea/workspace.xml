@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="hw 13 fix)">
+    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="completed hw 14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw14/HW14.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw14/HW14.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw14/common/c8-SuperDebouncedInput/SuperDebouncedInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw14/common/c8-SuperDebouncedInput/SuperDebouncedInput.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,10 +124,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Jest.homeWorkReducer.test.tsx" />
-        <item itemvalue="npm.deploy" />
         <item itemvalue="Jest.check age 18" />
       </list>
     </recent_temporary>
@@ -188,7 +186,7 @@
       <workItem from="1716792448522" duration="3906000" />
       <workItem from="1716800624965" duration="2019000" />
       <workItem from="1717769773294" duration="232000" />
-      <workItem from="1717938999007" duration="3602000" />
+      <workItem from="1717938999007" duration="4320000" />
     </task>
     <task id="LOCAL-00001" summary="done my homework 2">
       <option name="closed" value="true" />
@@ -366,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716801977308</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="completed hw 14">
+      <option name="closed" value="true" />
+      <created>1717951576151</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1717951576151</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,6 +409,7 @@
     <MESSAGE value="completed hw 13" />
     <MESSAGE value="hw 13 fix" />
     <MESSAGE value="hw 13 fix)" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 13 fix)" />
+    <MESSAGE value="completed hw 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed hw 14" />
   </component>
 </project>
