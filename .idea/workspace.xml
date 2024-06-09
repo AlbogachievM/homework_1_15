@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="hw 13 fix">
-      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw13/HW13.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw13/HW13.tsx" afterDir="false" />
+    <list default="true" id="be63fe36-c78b-404f-976a-0074cc8bdb15" name="Changes" comment="hw 13 fix)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw05/pages/JuniorPlus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw14/HW14.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw14/HW14.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw14/common/c8-SuperDebouncedInput/SuperDebouncedInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw14/common/c8-SuperDebouncedInput/SuperDebouncedInput.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/it-incubator/ThreeMounth/homework_1_15",
+    "last_opened_file_path": "C:/it-incubator/homework_1_15",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,7 +66,7 @@
     "nodejs.jest.jest_package": "C:/it-incubator/ThreeMounth/homework_1_15/node_modules/react-scripts",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\it-incubator\\ThreeMounth\\homework_1_15\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\it-incubator\\homework_1_15\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -181,7 +186,9 @@
       <workItem from="1715681333343" duration="12000" />
       <workItem from="1716196094413" duration="2253000" />
       <workItem from="1716792448522" duration="3906000" />
-      <workItem from="1716800624965" duration="1316000" />
+      <workItem from="1716800624965" duration="2019000" />
+      <workItem from="1717769773294" duration="232000" />
+      <workItem from="1717938999007" duration="3602000" />
     </task>
     <task id="LOCAL-00001" summary="done my homework 2">
       <option name="closed" value="true" />
@@ -351,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716801702978</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="hw 13 fix)">
+      <option name="closed" value="true" />
+      <created>1716801977308</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716801977308</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +402,7 @@
     <MESSAGE value="completed hw 12" />
     <MESSAGE value="completed hw 13" />
     <MESSAGE value="hw 13 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 13 fix" />
+    <MESSAGE value="hw 13 fix)" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 13 fix)" />
   </component>
 </project>
