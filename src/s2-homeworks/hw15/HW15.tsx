@@ -5,6 +5,7 @@ import axios from 'axios'
 import SuperPagination from './common/c9-SuperPagination/SuperPagination'
 import {useSearchParams} from 'react-router-dom'
 import SuperSort from './common/c10-SuperSort/SuperSort'
+import {Loader} from "../hw10/Loader";
 
 /*
 * 1 - дописать SuperPagination
@@ -46,13 +47,13 @@ const HW15 = () => {
     const [totalCount, setTotalCount] = useState(100)
     const [searchParams, setSearchParams] = useSearchParams()
     const [techs, setTechs] = useState<TechType[]>([])
-
     const sendQuery = (params: any) => {
         setLoading(true)
         getTechs(params)
             .then((res) => {
                 // делает студент
-
+                res && setTechs(res.data.techs)
+                setLoading(false)
                 // сохранить пришедшие данные
 
                 //
@@ -61,25 +62,22 @@ const HW15 = () => {
 
     const onChangePagination = (newPage: number, newCount: number) => {
         // делает студент
-
-        // setPage(
-        // setCount(
-
-        // sendQuery(
-        // setSearchParams(
-
+        setPage(newPage)
+        setCount(newCount)
+        sendQuery({page: newPage, count: newCount})
+        setSearchParams({'page': `${newPage}`, 'count': `${newCount}`})
         //
     }
 
     const onChangeSort = (newSort: string) => {
         // делает студент
-
-        // setSort(
-        // setPage(1) // при сортировке сбрасывать на 1 страницу
+        setSort(newSort)
+        setPage(1) // при сортировке сбрасывать на 1 страницу
 
         // sendQuery(
+        sendQuery({sort: newSort})
         // setSearchParams(
-
+        setSearchParams({'sort': `${newSort}`})
         //
     }
 
@@ -107,7 +105,7 @@ const HW15 = () => {
             <div className={s2.hwTitle}>Homework #15</div>
 
             <div className={s2.hw}>
-                {idLoading && <div id={'hw15-loading'} className={s.loading}>Loading...</div>}
+                {idLoading && <div id={'hw15-loading'} className={s.loading}><Loader/></div>}
 
                 <SuperPagination
                     page={page}
